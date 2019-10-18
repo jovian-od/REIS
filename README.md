@@ -1,6 +1,15 @@
 #REIS  
 >Ridiculously Elemental IoT Spec  
----  
+
+  
+
+---    
+
+##In short: A *thingy[1]* that implements REIS can be configured to do simple[2] IoT tasks by supplying it a simple JSON configuration file.
+
+[1] Thingy can be an end user software application, physical device, or hybrid of the two.  
+
+[2] Tasks are REST actions that have a REST verb, URL, and optional output
 
 From the perspective of this specification an *endpoint* can be anything that implements input and/or output to an end user. 
 
